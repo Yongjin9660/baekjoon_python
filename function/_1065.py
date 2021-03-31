@@ -13,8 +13,6 @@ def hansoo(a):
         a = a // 10
         arr.append(temp)
 
-    #arr.sort()
-
     if (arr[1]-arr[0]) == (arr[2]-arr[1]):
         return True
     else:
