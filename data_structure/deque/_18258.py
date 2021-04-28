@@ -16,19 +16,19 @@ for _ in range(N):
         else:
             print(-1)
     elif s[0] == 'size':
-        print(len(stack))
+        print(len(deq))
     elif s[0] == 'empty':
-        if stack:
+        if deq:
             print(0)
         else:
             print(1)
     elif s[0] == 'front':
-        if stack:
-            print(stack[0])
+        if deq:
+            print(deq[0])
         else:
             print(-1)
     elif s[0] == 'back':
-        if stack:
-            print(stack[-1])
+        if deq:
+            print(deq[-1])
         else:
             print(-1)
