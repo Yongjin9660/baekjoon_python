@@ -1,5 +1,4 @@
 arr = list(map(int, input()))
-print(arr)
 dic = dict()
 for i in arr:
     if i == 9:
