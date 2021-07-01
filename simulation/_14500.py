@@ -38,8 +38,6 @@ def cal(x, y):
             except IndexError:
                 continue
         result = max(result, temp_result)
-
-
 result = 0
 for i in range(n):
     for j in range(m):
