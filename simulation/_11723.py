@@ -1,7 +1,8 @@
-M = int(input())
+import sys
+M = int(sys.stdin.readline())
 s = set()
 for _ in range(M):
-    temp = list(input().split())
+    temp = list(sys.stdin.readline().split())
     if temp[0] == 'add':
         s.add(int(temp[1]))
     elif temp[0] == 'remove':
